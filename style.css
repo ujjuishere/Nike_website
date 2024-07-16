@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #d0d4D5;
+}
+.nav-1 img{
+    height: 50px;
+    width: auto;
+}
+.nav{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul li {
+    margin-left: 50px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+li:hover{
+    border-bottom: 2px solid black;
+}
+
+.nav-2{
+    margin-right: 40px;
+    font-size: 21px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.content{
+    height: calc(100% - 110px);
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.left{
+    padding: 80px 100px;
+    width: 50%;
+    height: 100%;
+}
+.left h6{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #555;
+    margin-bottom: 10px;
+}
+.left h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 25px;
+    
+}
+.left p{
+    font-size: 20px;
+    color: #000;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.right{
+    height: 100%;
+    width: 60%;
+}
+
+.shop-button{
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+}
+.right{
+    height: 100%;
+    width: 60%;
+    padding: 110px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.product{
+    height: 350px;
+    width: 250px;
+    background-color: whitesmoke;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(17, 0 ,17,0.3);
+    display: inline-block;
+    margin: 5px;
+}
+.product img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+.product h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 25%;
+}
+.category{
+    position: absolute;
+    bottom: 15%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.color{
+    position: absolute;
+    bottom: 9%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.price{
+    font-size: 20px;
+    position: absolute;
+    bottom: 1%;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.right::-webkit-scrollbar{
+    display: none;
+}
